@@ -1,6 +1,6 @@
 {
   "name": "@adequaat/local-io",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Super simple util lib for file and folder copying, reading, writing, removing and creating.",
   "main": "index.js",
   "type": "module",
