@@ -1,4 +1,4 @@
-import { appendFile, readFile, writeFile, rm, mkdir } from "node:fs/promises";
+import { appendFile, readFile, writeFile, rm, mkdir, rmdir } from "node:fs/promises";
 import { join } from "node:path";
 
 function createPathString(path) {
@@ -31,4 +31,8 @@ export function remove(path) {
 
 export function makeDir(path) {
   return mkdir(createPathString(path), { recursive: true });
+}
+
+export function removeDir(path) {
+  return rmdir(createPathString(path));
 }
