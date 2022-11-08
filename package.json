@@ -1,0 +1,21 @@
+{
+  "name": "@adequaat/local-io",
+  "version": "1.0.0",
+  "description": "Super simple util lib for file and folder copying, reading, writing, removing and creating.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/adequaat/local-io.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/adequaat/local-io/issues"
+  },
+  "homepage": "https://github.com/adequaat/local-io#readme"
+}
