@@ -11,7 +11,7 @@
     "type": "git",
     "url": "git+https://github.com/adequaat/local-io.git"
   },
-  "keywords": [],
+  "keywords": ["ESM", "text", "file", "folder", "directory"],
   "author": "",
   "license": "ISC",
   "bugs": {

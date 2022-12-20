@@ -25,6 +25,10 @@ export function write(path, content, options = encoding) {
   return writeFile(createPathString(path), content, normalizeOptions(options));
 }
 
+export function copy(fromPath, toPath, options = encoding) {
+  return read(fromPath).then((content) => write(toPath, content, options));
+}
+
 export function remove(path) {
   return rm(createPathString(path), { force: true });
 }
