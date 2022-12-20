@@ -1,6 +1,6 @@
 {
   "name": "@adequaat/local-io",
-  "version": "1.1.0",
+  "version": "1.1.1",
   "description": "Super simple util lib for file and folder copying, reading, writing, removing and creating.",
   "main": "index.js",
   "type": "module",
@@ -11,7 +11,13 @@
     "type": "git",
     "url": "git+https://github.com/adequaat/local-io.git"
   },
-  "keywords": ["ESM", "text", "file", "folder", "directory"],
+  "keywords": [
+    "ESM",
+    "text",
+    "file",
+    "folder",
+    "directory"
+  ],
   "author": "",
   "license": "ISC",
   "bugs": {
