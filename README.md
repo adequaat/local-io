@@ -6,7 +6,7 @@ All functions return promises.
 -  append (path, content, options = encoding)
 -  read (path)
 -  write (path, content, options = encoding)
--  copy (fromPath, toPath, options = encoding)
+-  copy (fromPath, toPath)
 -  remove (path)
 -  makeDir(path)
 -  removeDir (path)

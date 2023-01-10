@@ -1,4 +1,12 @@
-import { appendFile, readFile, writeFile, rm, mkdir, rmdir } from "node:fs/promises";
+import {
+  appendFile,
+  readFile,
+  writeFile,
+  copyFile,
+  rm,
+  mkdir,
+  rmdir
+} from "node:fs/promises";
 import { join } from "node:path";
 
 function createPathString(path) {
@@ -25,8 +33,8 @@ export function write(path, content, options = encoding) {
   return writeFile(createPathString(path), content, normalizeOptions(options));
 }
 
-export function copy(fromPath, toPath, options = encoding) {
-  return read(fromPath).then((content) => write(toPath, content, options));
+export function copy(fromPath, toPath) {
+  return copyFile(createPathString(fromPath), createPathString(toPath));
 }
 
 export function remove(path) {
